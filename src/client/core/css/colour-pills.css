@@ -1,0 +1,282 @@
+﻿/*colour-pill-Apple and generic colour pills*/
+
+.colour-pill-appleblue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applepink.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applered.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applegreen.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-yellow.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-pink.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-lightblue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-darkgreen.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-brown.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-orange.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-green.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-purple.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-darkblue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-blue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-darkred.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-red.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-appleblack.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-appleyellow.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applejetblack.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-black.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applegold.ctrl_radioBtn .ctrl_element::after, .colour-pill-gold.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applerosegold.ctrl_radioBtn .ctrl_element::after, .colour-pill-rosegold.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applesilver.ctrl_radioBtn .ctrl_element::after, .colour-pill-silver.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applewhite.ctrl_radioBtn .ctrl_element::after, .colour-pill-white.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applegrey.ctrl_radioBtn .ctrl_element::after, .colour-pill-grey.ctrl_radioBtn .ctrl_element::after {
+    background: none;
+    border-radius: 50%;
+    border:2px solid #00549a;
+    height: 30px;
+    width: 30px;
+    left: -4px;
+    top: -4px;  
+}
+.colour-pill-appleblue .ctrl_element,
+.colour-pill-applepink .ctrl_element,
+.colour-pill-applered .ctrl_element,
+.colour-pill-applegreen .ctrl_element,
+.colour-pill-yellow .ctrl_element,
+.colour-pill-pink .ctrl_element,
+.colour-pill-lightblue .ctrl_element,
+.colour-pill-darkgreen .ctrl_element,
+.colour-pill-brown .ctrl_element,
+.colour-pill-orange .ctrl_element,
+.colour-pill-green .ctrl_element,
+.colour-pill-purple .ctrl_element,
+.colour-pill-darkblue .ctrl_element,
+.colour-pill-blue .ctrl_element,
+.colour-pill-darkred .ctrl_element,
+.colour-pill-red .ctrl_element,
+.colour-pill-appleyellow .ctrl_element,
+.colour-pill-appleblack .ctrl_element,
+.colour-pill-applejetblack .ctrl_element, 
+.colour-pill-black .ctrl_element,  
+.colour-pill-applerosegold .ctrl_element, .colour-pill-rosegold .ctrl_element,
+.colour-pill-applegold .ctrl_element, .colour-pill-gold .ctrl_element,
+.colour-pill-applesilver .ctrl_element, .colour-pill-silver .ctrl_element,
+.colour-pill-applewhite .ctrl_element, .colour-pill-white .ctrl_element,
+.colour-pill-applegrey .ctrl_element, .colour-pill-grey .ctrl_element{
+   box-shadow: none;
+}
+.colour-pill-appleblue.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applepink.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applered.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applegreen.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-yellow.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-pink.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-lightblue.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-darkgreen.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-brown.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-orange.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-green.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-purple.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-darkblue.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-blue.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-darkred.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-red.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-appleyellow.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-appleblack.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applejetblack.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-black.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applegold.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-gold.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applerosegold.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-rosegold.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applesilver.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-silver.graphical_ctrl input:checked ~ .ctrl_element,
+.colour-pill-applewhite.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-white.graphical_ctrl input:checked ~ .ctrl_element, 
+.colour-pill-applegrey.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-grey.graphical_ctrl input:checked ~ .ctrl_element{
+    border: none;
+}
+
+
+.colour-pill-appleyellow .ctrl_element {
+    background: #e9e47f; 
+} 
+.colour-pill-appleblack .ctrl_element {
+    background: #2b2b2b; 
+}
+.colour-pill-applegrey .ctrl_element, .colour-pill-grey .ctrl_element {
+    background: #999; 
+}
+.colour-pill-applegold .ctrl_element, .colour-pill-gold .ctrl_element {
+    background: #c9b8a3; 
+}
+.colour-pill-applewhite .ctrl_element, .colour-pill-white .ctrl_element {
+    background: #fff; 
+}
+.colour-pill-applerosegold .ctrl_element, .colour-pill-rosegold .ctrl_element  {
+    background: #fcc; 
+}
+.colour-pill-applesilver .ctrl_element, .colour-pill-silver .ctrl_element {
+    background: #e4e4e4; 
+}
+.colour-pill-applejetblack .ctrl_element {
+    background: #1F1F21; 
+}
+.colour-pill-applegreen .ctrl_element {
+    background: #91da65; 
+}
+.colour-pill-applered .ctrl_element {
+    background: #f17275; 
+}
+.colour-pill-applepink .ctrl_element {
+    background: #fc818c; 
+}
+.colour-pill-appleblue .ctrl_element {
+    background: #83b8f0; 
+}
+.colour-pill-black .ctrl_element {
+    background: #333; 
+}
+.colour-pill-red .ctrl_element {
+    background: red; 
+}
+.colour-pill-darkred .ctrl_element {
+    background: #960000; 
+}
+.colour-pill-blue .ctrl_element {
+    background: #06c; 
+}
+.colour-pill-darkblue .ctrl_element {
+    background: #4d79a1; 
+}
+.colour-pill-purple .ctrl_element {
+    background: #76329d; 
+}
+.colour-pill-green .ctrl_element {
+    background: #547f22; 
+}
+.colour-pill-orange .ctrl_element {
+    background: #f90; 
+}
+.colour-pill-brown .ctrl_element {
+    background: #960; 
+}
+.colour-pill-darkgreen .ctrl_element {
+    background: #690; 
+}
+.colour-pill-lightblue .ctrl_element {
+    background: #9cf; 
+}
+.colour-pill-pink .ctrl_element {
+    background: #f99; 
+}
+.colour-pill-yellow .ctrl_element {
+    background: #ff9; 
+}
+
+
+
+.colour-pill-appleyellow.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #e9e47f;
+}
+.colour-pill-appleblack.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #2b2b2b;
+}
+.colour-pill-applegrey.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-grey.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #999;
+}
+.colour-pill-applegold.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-gold.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #c9b8a3;
+}
+.colour-pill-applerosegold.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-rosegold.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #fcc;
+}
+.colour-pill-applesilver.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-silver.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #e4e4e4;
+}
+.colour-pill-applewhite.graphical_ctrl input:checked ~ .ctrl_element, .colour-pill-white.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #fff;
+}
+.colour-pill-applejetblack.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #1F1F21;
+}
+.colour-pill-black.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #333;
+}
+.colour-pill-red.graphical_ctrl input:checked ~ .ctrl_element {
+    background: red;
+}
+.colour-pill-darkred.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #960000;
+}
+.colour-pill-blue.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #06c;
+}
+.colour-pill-darkblue.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #4d79a1;
+}
+.colour-pill-purple.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #76329d;
+}
+.colour-pill-green.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #547f22;
+}
+.colour-pill-orange.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #f90;
+}
+.colour-pill-brown.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #960;
+}
+.colour-pill-darkgreen.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #690;
+}
+.colour-pill-lightblue.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #9cf;
+}
+.colour-pill-pink.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #f99;
+}
+.colour-pill-yellow.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #ff9;
+}
+.colour-pill-applegreen.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #91da65;
+}
+.colour-pill-applered.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #f17275;
+}
+.colour-pill-applepink.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #fc818c;
+}
+.colour-pill-appleblue.graphical_ctrl input:checked ~ .ctrl_element {
+    background: #83b8f0;
+}
+
+
+/*Larger colour pills on mobile devices*/
+@media screen and (max-width:999px) {
+.colour-pill-appleblue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applepink.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applered.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applegreen.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-yellow.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-pink.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-lightblue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-darkgreen.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-brown.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-orange.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-green.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-purple.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-darkblue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-blue.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-darkred.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-red.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-appleblack.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-appleyellow.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applejetblack.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-black.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applegold.ctrl_radioBtn .ctrl_element::after, .colour-pill-gold.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applerosegold.ctrl_radioBtn .ctrl_element::after, .colour-pill-rosegold.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applesilver.ctrl_radioBtn .ctrl_element::after, .colour-pill-silver.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applewhite.ctrl_radioBtn .ctrl_element::after, .colour-pill-white.ctrl_radioBtn .ctrl_element::after,
+.colour-pill-applegrey.ctrl_radioBtn .ctrl_element::after, .colour-pill-grey.ctrl_radioBtn .ctrl_element::after {
+        background: none;
+        border-radius: 50%;
+        border: 2px solid #00549a;
+        height: 38px;
+        width: 38px;
+        left: -4px;
+        top: -4px;
+    }
+}

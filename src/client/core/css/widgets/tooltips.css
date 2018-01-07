@@ -1,0 +1,119 @@
+/*
+    *:before,*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  margin-top: -23px;
+}
+.tooltip-popover .tooltip-inner p {
+  margin-top: 10px;
+}
+.tooltip-popover .tooltip-popover-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 10px;
+  text-decoration: none !important;
+  margin: -18px;
+  border: 18px solid transparent;
+}
+
+.tooltip-popover .tooltip-popover-close .icon {
+  font-weight: 600;
+}
+
+.aria-visible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  position: absolute;
+}
+
+.btn-dropdown .dropdown-menu {
+  border-radius: 0;
+  min-width: 220px;
+  left: 50%;
+  margin-left: -116px;
+  padding: 0;
+  margin-top: 3px;
+  border-color: #d4d4d4;
+}
+.open>.dropdown-menu{ display: block; }
+.btn-dropdown .dropdown-menu li a {
+  color: inherit;
+  padding: 14px 20px;
+}
+
+.btn-dropdown .dropdown-menu li:not(:last-child) > a {
+  border-bottom: 1px solid #d4d4d4;
+}
+.btn-dropdown .dropdown-menu .caret {
+  top: 0;
+  right: 25%;
+  position: absolute;
+}
+.btn-dropdown .dropdown-menu .caret:after {
+  border-width: 8px;
+}
+.btn-dropdown .dropdown-menu li a i {
+  color: #00549a;
+  margin-right: 16px;
+  font-size: 20px;
+}
+.btn-dropdown .dropdown-menu li a i :before {
+  top: -1px;
+}
+.btn-dropdown .dropdown-menu li a:hover, .btn-dropdown .dropdown-menu li a:active {
+  background-color: #e1e1e1;
+  color: #00549a;
+}
+
+.tooltip-popover {
+  max-width: 340px;
+}
+@media screen and (max-width: 999px) {
+  /* line 196, scss/bill.scss */
+  .tooltip-popover:before {
+    content: " ";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.5;
+    display: block;
+    pointer-events: all;
+  }
+  .tooltip-popover .tooltip-arrow {
+    display: none;
+  }
+  .tooltip-popover .tooltip-inner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    max-height: 90%;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 999px) and (max-width: 639px) {
+  /* line 212, scss/bill.scss */
+  .tooltip-popover .tooltip-inner {
+    width: 90%;
+  }
+}

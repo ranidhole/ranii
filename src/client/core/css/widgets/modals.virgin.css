@@ -1,0 +1,96 @@
+/* Font Styles */
+.bellSlim,
+.brandFont {
+  font-family: "VMUltramagneticNormalRegular", Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+h1, h2, h3, h4 {
+  color: #242424;
+  text-transform: uppercase;
+}
+
+
+.modal .modal-dialog .modal-content .modal-header {
+  background-color: #e1e1e1;
+  color: #111;
+}
+.modal .modal-dialog .modal-content .modal-header .modal-title {
+  color: #111;
+}
+
+/* Icons */
+.icon-close:before {
+  content: "\e915";
+}
+.modal .close,
+.modal .modal-md .close {
+  position: absolute;
+  padding: 20px;
+  margin: 0;
+  top: 0;
+  right: 10px;
+}
+.modal .modal-dialog .modal-content .modal-header .close .icon {
+  color: #000;
+}
+/* Button Styles */
+.btn-primary {
+  color: #000;
+  background: none;
+  border-color: #000;
+  border: 2px solid #000; }
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #000;
+  background: none;
+  border-color: #000;
+  border: 2px solid #000; }
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #999;
+  border-color: #999; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #000;
+  background: none;
+  border-color: #000;
+  border: 2px solid #000; }
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none; }
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #fff;
+  border-color: #ccc; }
+
+.btn-primary .badge {
+  color: #fff;
+  background-color: #333; }

@@ -1,0 +1,4 @@
+﻿.form-padding [class^="col-md"], .form-padding [class*=" col-md"] { padding: 0 20px; }
+.form-padding [class^="col-md"] [class^="col-sm"], .form-padding [class*=" col-md"] [class*=" col-sm"] { padding: 0 20px; }
+.form-group.form-error, .form-group.form-error .form-label, .form-group.form-error .form-control { color: #BD2025; border-color: #BD2025; transition: border-color 0.5s cubic-bezier(.55,0,.1,1),color 0.5s cubic-bezier(.55,0,.1,1); }
+.form-item-note-error { padding-top: 5px; padding-bottom: 10px; }

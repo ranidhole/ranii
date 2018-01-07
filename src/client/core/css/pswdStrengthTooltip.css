@@ -1,0 +1,342 @@
+/* Added missing classes from Bootstrap framework for Password Strength Tooltip- Start
+******************************************************************************** */
+/*Password strength Progress Bar*/
+.progress {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.progress-bar {
+    background-color: #428bca;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    text-align: center;
+    transition: width 0.6s ease 0s;
+    width: 0;
+}
+.progress-bar-danger {
+    background-color: #d9534f;
+}
+.progress-bar-warning {
+    background-color: #f0ad4e;
+}
+.progress-bar-success {
+    background-color: #5cb85c;
+}
+
+/* ToolTip PopOver
+****************************************** */
+.popover {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1010;
+	display:none;
+	/* max-width:276px; */
+	padding:10px;
+	text-align:left;
+	white-space:normal;
+	background-color:#fff;
+	border: 1px solid #e1e1e1;	
+	-webkit-box-shadow:0 5px 10px rgba(0,0,0,0.2);	
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	background-clip:padding-box;
+    margin-top: -25px; 
+	border-radius:0;	
+}
+.popover.top{
+	margin-top:-10px
+}
+.popover.right{
+	margin-left:10px
+}
+.popover.bottom{
+	margin-top:10px
+}
+.popover.left{
+	margin-left:-10px
+}
+.popover-title{
+	padding:8px 14px;
+	margin:0;
+	font-size:14px;
+	font-weight:normal;
+	line-height:18px;
+	background-color:#f7f7f7;
+	border-bottom:1px solid #ebebeb;
+	border-radius:5px 5px 0 0
+}
+.popover-content{
+	padding:9px 14px 20px 14px;
+}
+.popover .arrow,.popover .arrow:after{
+	position:absolute;
+	display:block;
+	width:0;
+	height:0;
+	border-color:transparent;
+	border-style:solid
+}
+.popover .arrow{
+	border-width:11px
+}
+.popover .arrow:after{
+	border-width:30px;
+	content:""
+}
+.popover.top .arrow{
+	bottom:-11px;
+	left:50%;
+	margin-left:-11px;
+	border-top-color:#999;
+	border-top-color:rgba(0,0,0,0.25);
+	border-bottom-width:0
+}
+.popover.top .arrow:after{
+	bottom:1px;
+	margin-left:-10px;
+	border-top-color:#fff;
+	border-bottom-width:0;
+	content:" "
+}
+.popover.right .arrow{
+	top:50%;
+	left:-11px;
+	margin-top:-11px;
+	border-right-color:#999;
+	border-right-color:rgba(0,0,0,0.25);
+	border-left-width:0
+}
+.popover.right .arrow:after{
+	bottom:-26px;
+	left:-37px;
+	border-right-color:#fff;
+	border-left-width:30px;
+	content:" "
+}
+.popover.bottom .arrow{
+	top:-11px;
+	left:50%;
+	margin-left:-11px;
+	border-bottom-color:#999;
+	border-bottom-color:rgba(0,0,0,0.25);
+	border-top-width:0
+}
+.popover.bottom .arrow:after{
+	top:1px;
+	margin-left:-10px;
+	border-bottom-color:#fff;
+	border-top-width:0;
+	content:" "
+}
+.popover.left .arrow{
+	top:50%;
+	right:-11px;
+	margin-top:-11px;
+	border-left-color:#999;
+	border-left-color:rgba(0,0,0,0.25);
+	border-right-width:0
+}
+.popover.left .arrow:after
+{
+	right:1px;
+	bottom:-10px;
+	border-left-color:#fff;
+	border-right-width:0;
+	content:" "
+}
+.popover .popover-content ul.error-list{
+	padding-left: 11px;
+}
+.popover .popover-title {
+    background-color: #fff;
+    border-bottom: none;
+	color: #555;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+/* Custom styles for Password strength tooltip content 
+***************************************************** */
+#pwStrengthTooltipWrapper .popover{
+	font-family:sans-serif;
+	/* max-width: 300px; */	
+}
+#pwStrengthTooltipWrapper h5{
+	text-align:left;
+	letter-spacing: normal;
+}
+#pwStrengthTooltipWrapper h3{
+	letter-spacing: normal;
+}
+#pwStrengthTooltipWrapper h5 .password-verdict{	
+	font-family:sans-serif;	
+	font-size:13px;	
+    letter-spacing: normal !important;	
+}
+#pwStrengthTooltipWrapper .passwordVerdictLabel{
+	color:#666666;
+}
+#pwStrengthTooltipWrapper .passwordVerdictTxt{
+	float: right; margin-top: 4px;
+	font-weight:bold;
+}
+#pwStrengthTooltipWrapper .pwstrengthProgress{
+	margin-top: 3px; overflow: hidden;
+}
+#pwStrengthTooltipWrapper .pwstrengthProgressBar{
+	display: inline-block;
+	width: 100%;
+	height:8px;
+}
+.weakColor{
+	color:#d9534f;   
+}
+.normal_medium_Color{
+	color:#f79100; 	
+}
+.strongColor{
+	color:#349045;   
+}
+.vstrongColor{
+	color:#349045; 
+}
+.pwstrengthProgressBarWeak{
+	background-color:#d9534f; 
+}
+.pwstrengthProgressBarNormal, .pwstrengthProgressBarMedium{
+	background-color:#f79100; 
+}
+.pwstrengthProgressBarStrong{
+	background-color:#349045; 
+}
+.pwstrengthProgressBarVeryStrong{
+	background-color:#349045; 
+}
+.popover {
+	width:325px;
+	max-width:325px;
+}
+
+.popover  .popover-content h5{
+	margin-bottom:0;
+}
+
+/* Password strength Tooltip - Responsive styles
+************************************************* */
+@media (max-width: 519px) {
+	.noVpaddingL_xs{
+		padding-left:0;
+	}  
+}
+
+@media (min-width: 505px) and (max-width: 999px) {
+	.popoverTrue .pswLabelWrapper{
+		vertical-align:top !important;
+	}
+	.popoverTrue .pswLabelWrapper label{
+		margin-top: 15px !important;
+	}
+}
+
+@media (max-width: 768px) {
+    
+    .popover {
+		position:static !important;
+		max-width:100% !important;
+		width:100%;
+	}
+	.popover.bottom .arrow{
+		top:-11px !important;		
+	}
+	.popover .arrow, .popover .arrow:after{
+		position:relative !important;
+		display:none !important;
+	}	
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {	
+	.popover {
+		position:static !important;
+		max-width:100% !important;
+		width:100%;
+	}
+	.popover.bottom .arrow{
+		top:-11px !important;		
+	}
+	.popover .arrow, .popover .arrow:after{
+		position:relative !important;
+		display:none !important;
+	}	
+}
+
+@media only screen and (min-width: 1228px) {	
+	 .popover {		
+		left:365px !important;
+		top:-28.5px !important;
+		position:absolute !important;
+	} 	
+	.createProfilePage .popover {		
+		left:418px !important;
+		top:-28.5px !important;
+		position:absolute !important;
+	} 	
+}
+
+@media only screen and (max-width: 1024px) {
+    .popover {	
+		margin-left:0 !important;
+		margin-top:10px !important;
+		box-shadow:none !important;
+		padding-left: 0 !important;
+		padding-right:0 !important;
+		border:none !important;
+	}
+	.popover .popover-title{
+		padding-left:0 !important;
+		padding-right:0 !important;
+		padding-top:0 !important;
+	}
+	.popover .popover-content{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	
+	.popover .arrow, .popover .arrow:after{		
+		display:none !important;
+	}	
+	.hidden_sm_Landcape{
+		display:none !important;
+	}
+}	
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.popoverTrue .pswLabelWrapper{
+		 vertical-align:top !important; 
+	}
+	.popoverTrue .pswLabelWrapper label{
+		 margin-top: 15px !important; 
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {	
+	.popover {
+		position:static !important;
+		/* max-width:50% !important; */
+		max-width:100% !important;
+	}	
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1227px) {	
+	 .popover {
+		left:365px !important;
+		top:-17.5px !important;
+		position:absolute !important;
+	} 
+}

@@ -1,0 +1,19 @@
+﻿  	    /*Blue Text and Images*/
+  	.blue-text-and-image { display: table; table-layout: fixed; }
+    .blue-text-and-image > [class^="col-"], .blue-text-and-image > [class*=" col-"] { display: table-cell; float: none; vertical-align: middle; }
+    .blue-text-and-image > .row { padding: 30px; margin: 0; }
+    .blue-text-and-image > .row > [class^="col-"], .blue-text-and-image > row > [class*=" col-"] { display: block; }
+    .blue-text-and-image .image-bottom-right { bottom: 0px; right: 20px; }
+    .blue-text-and-image .image-left { left: 0px; top: 0px; }
+    .blue-text-and-image .bottomAlign { vertical-align: bottom; }
+    @media (max-width: 767px) {
+    .blue-text-and-image { display: block; }
+    .blue-text-and-image > [class^="col-"], .blue-text-and-image > [class*=" col-"] { display: block; }
+    .blue-text-and-image > .row { padding: 30px; margin: 0; }
+    .blue-text-and-image > .row > [class^="col-"], .blue-text-and-image > row > [class*=" col-"] { display: block; }
+    .blue-text-and-image img { display: block; max-width: 100%; height: auto; }
+    .full-btn { display: block; width: 100%; }
+    .content-center-xs h2, .content-center-xs p { text-align: center; }
+    .content-center-xs a.btn { margin-left: auto; margin-right: auto; display: table; }
+    .content-center-xs button.btn { margin-left: auto; margin-right: auto; display: table; }
+    }

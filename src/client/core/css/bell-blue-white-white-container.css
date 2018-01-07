@@ -1,0 +1,175 @@
+﻿/*Icon size*/
+.icon-small-4:before, .icon-circle-small-4:before { font-size: 4px; }
+.icon-small-6:before, .icon-circle-small-6:before { font-size: 6px; }
+.icon-small-8:before, .icon-circle-small-8:before { font-size: 8px; }
+.icon-small-10:before, .icon-circle-small-10:before { font-size: 10px; }
+.icon-small-12:before, .icon-circle-small-12:before { font-size: 12px; }
+.icon-small-15:before, .icon-circle-small-15:before { font-size: 15px; }
+.icon-small-17:before, .icon-circle-small-17:before { font-size: 17px; }
+.icon-small-18:before, .icon-circle-small-19:before { font-size: 18px; }
+.icon-small-20:before, .icon-circle-small-20:before { font-size: 20px; }
+.icon-small-22:before, .icon-circle-small-22:before { font-size: 22px; }
+.icon-small-24:before, .icon-circle-small-24:before { font-size: 24px; height: 24px; }
+.icon-small-26:before, .icon-circle-small-26:before { font-size: 26px; }
+.icon-small-28:before, .icon-circle-small-28:before { font-size: 28px; }
+.icon-small-30:before, .icon-circle-small-30:before { font-size: 30px; }
+.icon-small-31:before, .icon-circle-small-31:before { font-size: 31px; }
+.icon-small-32:before, .icon-circle-small-32:before { font-size: 32px; }
+.icon-small-33:before, .icon-circle-small-33:before { font-size: 33px; }
+.icon-small-34:before, .icon-circle-small-34:before { font-size: 34px; }
+.icon-small-36:before, .icon-circle-small-36:before { font-size: 36px; }
+.icon-small-38:before, .icon-circle-small-38:before { font-size: 38px; }
+.icon-small-40:before, .icon-circle-small-40:before { font-size: 40px; }
+.icon-small-42:before, .icon-circle-small-42:before { font-size: 42px; height: 42px; }
+.icon-small-44:before, .icon-circle-small-44:before { font-size: 44px; }
+.icon-small-46:before, .icon-circle-small-46:before { font-size: 46px; }
+.icon-small-48:before, .icon-circle-small-48:before { font-size: 48px; height: 48px; }
+.icon-small-50:before, .icon-circle-small-50:before { font-size: 50px; }
+.icon-small-52:before, .icon-circle-small-52:before { font-size: 52px; }
+.icon-small-54:before, .icon-circle-small-54:before { font-size: 54px; }
+.icon-small-56:before, .icon-circle-small-56:before { font-size: 56px; }
+.icon-small-58:before, .icon-circle-small-58:before { font-size: 58px; }
+.icon-small-60:before, .icon-circle-small-60:before { font-size: 60px; }
+.icon-small-61:before, .icon-circle-small-61:before { font-size: 61px; }
+.icon-small-62:before, .icon-circle-small-62:before { font-size: 62px; }
+.icon-small-64:before, .icon-circle-small-64:before { font-size: 64px; }
+.icon-small-68:before, .icon-circle-small-68:before { font-size: 68px; }
+.icon-small-72:before, .icon-circle-small-72:before { font-size: 72px; }
+.icon-small-78:before, .icon-circle-small-78:before { font-size: 78px; }
+.icon-small-128:before, .icon-circle-small-128:before { font-size: 128px; }
+.icon-small-140:before, .icon-circle-small-140:before { font-size: 140px; }
+.icon-small-160:before, .icon-circle-small-160:before { font-size: 160px; }
+.icon-small-180:before, .icon-circle-small-180:before { font-size: 180px; }
+.icon-small-200:before, .icon-circle-small-200:before { font-size: 200px; }
+.mar-h-0 { margin-left: 0; margin-right: 0; }
+.mar-top-0 { margin-top: 0; }
+.mar-top-5 { margin-top: 5px; }
+.mar-top-10 { margin-top: 10px; }
+.mar-top-15 { margin-top: 15px; }
+.mar-bottom-0 { margin-bottom: 0; }
+.mar-bottom-5 { margin-bottom: 5px; }
+.mar-bottom-10 { margin-bottom: 10px !important; }
+.mar-bottom-15 { margin-bottom: 15px; }
+.mar-bottom-20 { margin-bottom: 20px; }
+.mar-right-10 { margin-right: 10px; }
+.mar-right-20 { margin-right: 20px; }
+.mar-left-0 { margin-left: 0 !important; }
+.mar-left-10 { margin-left: 10px; }
+.mar-left-20 { margin-left: 20px; }
+.mar-left-50 { margin-left: 50px; }
+
+.pad-h-0 { padding-left: 0 !important; padding-right: 0 !important; }
+.pad-v-0 { padding-top: 0 !important; padding-bottom: 0 !important; }
+.pad-h-20 { padding-left: 20px !important; padding-right: 20px !important; }
+.pad-v-20 { padding-top: 20px !important; padding-bottom: 20px !important; }
+.pad-v-30 { padding-top: 30px !important; padding-bottom: 30px !important; }
+.pad-h-40 { padding-left: 40px !important; padding-right: 40px !important; }
+.pad-v-40 { padding-top: 40px !important; padding-bottom: 40px !important; }
+
+.pad-left-0 { padding-left: 0px !important; }
+.pad-left-2 { padding-left: 2px !important; }
+.pad-left-5 { padding-left: 5px !important; }
+.pad-left-10 { padding-left: 10px !important; }
+.pad-left-20 { padding-left: 20px !important; }
+.pad-left-30 { padding-left: 30px !important; }
+.pad-left-40 { padding-left: 40px !important; }
+
+.pad-right-0 { padding-right: 0px !important; }
+.pad-right-10 { padding-right: 10px !important; }
+.pad-right-20 { padding-right: 20px !important; }
+.pad-right-40 { padding-right: 40px !important; }
+
+
+.pad-bottom-0 { padding-bottom: 0 !important; }
+.pad-bottom-10 { padding-bottom: 10px !important; }
+.pad-bottom-20 { padding-bottom: 20px !important; }
+.pad-bottom-30 { padding-bottom: 30px !important; }
+.pad-bottom-40 { padding-bottom: 40px !important; }
+
+.pad-top-0 { padding-top: 0 !important; }
+.pad-top-10 { padding-top: 10px !important; }
+.pad-top-20 { padding-top: 20px !important; }
+.pad-top-25 { padding-top: 25px !important; }
+.pad-top-30 { padding-top: 30px !important; }
+.pad-top-40 { padding-top: 40px !important; }
+
+
+.col-table { display: table; table-layout: fixed; }
+.col-table > [class^="col-"], .col-table > [class*=" col-"] { display: table-cell; float: none; }
+.col-table .img-responsive { width: 100%; }
+.valign-bottom {
+    vertical-align: bottom !important;
+}
+/*Everything is a bundle - LIST*/
+.icon-list, .icon-list-txtBlue { margin: 0; padding: 0; list-style: none !important; }
+.icon-list > li, .icon-list-txtBlue > li { margin-left: 1.8em; position: relative; padding-bottom: 7px; }
+.icon-list > li:last-child, .icon-list-txtBlue > li:last-child { padding-bottom: 0; }
+.icon-list > li:before { font-family: 'bell-icon'; content: "\e603"; position: absolute; top: 2px; left: -2.3em; font-size: 10px; font-weight: bold; color: #fff; }
+.icon-list-txtBlue > li:before { color: #00549a; font-family: 'bell-icon'; content: "\e603"; position: absolute; top: 5px; left: -2.3em; font-size: 10px; font-weight: bold; }
+.col-pad > [class^="col-"], .col-pad > [class*=" col-"] { padding: 40px; }
+
+/*Text and Images*/
+.text-and-image { display: table; table-layout: fixed; }
+
+.text-and-image .row { /*padding: 30px;*/ margin: 0; }
+.text-and-image > .row > [class^="col-"], .text-and-image > row > [class*=" col-"] { display: block; }
+.text-and-image .topAlign { vertical-align: top; }
+.text-and-image .image-bottom-right { bottom: 0px; right: 0px; }
+.text-and-image .image-left { left: 0px; top: 0px; }
+.text-and-image .image-bottom-left { left: 0px; bottom: 0px; }
+.text-and-image .image-center-right { top: 50%; right: 0; -webkit-transform: translateX(0%) translateY(-50%); -ms-transform: translateX(0%) translateY(-50%); transform: translateX(0%) translateY(-50%); }
+
+.reliable-phone {
+    display: table;
+    table-layout: fixed;
+}
+.reliable-phone i {
+    width: 38px;
+    height: 38px;
+    display: block;
+    margin-right: 20px;
+}
+.reliable-phone > [class^="col-"], .reliable-phone > [class*=" col-"] {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.blue-text-and-image > [class^="col-"], .blue-text-and-image > [class*=" col-"] {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+@media (min-width: 1000px) {
+	.pad-right-0-md {
+    padding-right: 0px !important;
+}
+}
+
+@media (min-width:992px) {
+.text-and-image > [class^="col-"], .text-and-image > [class*=" col-"] { display: table-cell; float: none; vertical-align: middle; }
+}
+
+
+@media (max-width:767px) {
+.col-pad > [class^="col-"], .col-pad > [class*=" col-"] { padding: 30px 20px; }
+.pad-h-0-xs { padding-left: 0 !important; padding-right: 0 !important; }
+.col-pad > [class^="col-"], .col-pad > [class*=" col-"] {
+    padding: 30px 20px;
+}
+.blue-text-and-image > [class^="col-"], .blue-text-and-image > [class*=" col-"] {
+    display: block;
+}
+.txt-center-xs {
+    text-align: center;
+}
+.content-center-xs a.btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+
+@media (min-width: 520px) and (max-width: 991px) {
+.iWhyBell-simple .image-bottom-right { right: 70px; }
+}

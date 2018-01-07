@@ -1,0 +1,54 @@
+
+.maskUnMaskPwsBtn{	
+	right:6px;
+}
+
+/* Helper styles 
+************************* */
+.vMarginR10{
+	margin-right:10px;
+}
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+.margin-2-top{
+    margin-top:2px;
+}
+/* Responsive styles 
+************************* */
+@media (max-width: 519px) {	
+	.no-margin-right-xs {
+		margin-right: 0 !important;
+	}
+}
+@media (min-width: 520px) and (max-width: 999px) {	
+	.no-margin-right-sm {
+		margin-right: 0 !important;
+	}
+}
+
+@media (min-width: 992px){	
+	.margin-5-top-minus-md-lg{margin-top:-5px}
+}
+
+@media screen and (max-width:1025px){
+#inqChatStage{z-index:55555 !important;}  
+}
+
+@media (max-width: 1024px) {
+	.maskUnMaskPwsBtn{	
+		top:7px;
+	}
+	.popoverTrue .maskUnMaskPwsBtn{	
+		top:7px;
+	}
+	.hidden_sm_Landcape {
+		display: none !important;
+	}
+}
+/*there wasn't enough room at tablet size for the accounNumModal to show the last top link without it slipping below the other links. It will be worse with French so increased from 600 to 675*/
+@media (min-width: 768px) {
+    .modal-dialog {
+        width:auto;
+    }	
+}

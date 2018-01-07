@@ -1,0 +1,61 @@
+.icon-small-4:before, .icon-circle-small-4:before { font-size: 4px; }
+.icon-small-6:before, .icon-circle-small-6:before { font-size: 6px; }
+.icon-small-8:before, .icon-circle-small-8:before { font-size: 8px; }
+.icon-small-10:before, .icon-circle-small-10:before { font-size: 10px; }
+.icon-small-12:before, .icon-circle-small-12:before { font-size: 12px; }
+.icon-small-15:before, .icon-circle-small-15:before { font-size: 15px; }
+.icon-small-17:before, .icon-circle-small-17:before { font-size: 17px; }
+.icon-small-18:before, .icon-circle-small-19:before { font-size: 18px; }
+.icon-small-20:before, .icon-circle-small-20:before { font-size: 20px; }
+.icon-small-22:before, .icon-circle-small-22:before { font-size: 22px; }
+.icon-small-24:before, .icon-circle-small-24:before { font-size: 24px; height: 24px; }
+.icon-small-26:before, .icon-circle-small-26:before { font-size: 26px; }
+.icon-small-28:before, .icon-circle-small-28:before { font-size: 28px; }
+.icon-small-30:before, .icon-circle-small-30:before { font-size: 30px; }
+.icon-small-31:before, .icon-circle-small-31:before { font-size: 31px; }
+.icon-small-32:before, .icon-circle-small-32:before { font-size: 32px; }
+.icon-small-33:before, .icon-circle-small-33:before { font-size: 33px; }
+.icon-small-34:before, .icon-circle-small-34:before { font-size: 34px; }
+.icon-small-36:before, .icon-circle-small-36:before { font-size: 36px; }
+.icon-small-38:before, .icon-circle-small-38:before { font-size: 38px; }
+.icon-small-40:before, .icon-circle-small-40:before { font-size: 40px; }
+.icon-small-42:before, .icon-circle-small-42:before { font-size: 42px; height: 42px; }
+.icon-small-44:before, .icon-circle-small-44:before { font-size: 44px; }
+.icon-small-46:before, .icon-circle-small-46:before { font-size: 46px; }
+.icon-small-48:before, .icon-circle-small-48:before { font-size: 48px; height: 48px; }
+.icon-small-50:before, .icon-circle-small-50:before { font-size: 50px; }
+.icon-small-52:before, .icon-circle-small-52:before { font-size: 52px; }
+.icon-small-54:before, .icon-circle-small-54:before { font-size: 54px; }
+.icon-small-56:before, .icon-circle-small-56:before { font-size: 56px; }
+.icon-small-58:before, .icon-circle-small-58:before { font-size: 58px; }
+.icon-small-60:before, .icon-circle-small-60:before { font-size: 60px; }
+.icon-small-61:before, .icon-circle-small-61:before { font-size: 61px; }
+.icon-small-62:before, .icon-circle-small-62:before { font-size: 62px; }
+.icon-small-64:before, .icon-circle-small-64:before { font-size: 64px; }
+.icon-small-68:before, .icon-circle-small-68:before { font-size: 68px; }
+.icon-small-72:before, .icon-circle-small-72:before { font-size: 72px; }
+.icon-small-78:before, .icon-circle-small-78:before { font-size: 78px; }
+.icon-small-128:before, .icon-circle-small-128:before { font-size: 128px; }
+.icon-small-140:before, .icon-circle-small-140:before { font-size: 140px; }
+.icon-small-160:before, .icon-circle-small-160:before { font-size: 160px; }
+.icon-small-180:before, .icon-circle-small-180:before { font-size: 180px; }
+.icon-small-200:before, .icon-circle-small-200:before { font-size: 200px; }
+
+@media (min-width: 640px) and (max-width: 999px) {
+    .contact-box h2 { font-size: 24px; }
+    #orphan-fttb-banner { height: 450px; }
+    .orphan-column-icons { margin-top: -150px; }
+
+    .container.liquid-container { padding-left: 40px; padding-right: 40px; }
+    .connector .container.liquid-container { padding-left: 0px; padding-right: 0px; }
+
+    .absolute-sm { position: absolute; }
+}
+
+        @media (max-width: 999px){
+            .icon-links .icon{
+                border-width: 0;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }

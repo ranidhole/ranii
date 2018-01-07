@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+.loaderOverlayBackground {
+    background: #000 none repeat scroll 0 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 55555;
+}
+.pagLoader {
+    display: none;
+}
+.spacer2 {
+    height: 2px;
+}
+.centerElement {
+    margin: 0 auto;
+    display: table;
+}
+.loading-mbm-spinner {
+    background-image: url(../../content/img/loader_inner.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+.loaderMBMBG{
+     background-image: url(../../content/img/loader_inner_outer.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    top: 17px;
+    left:113px;
+    position:absolute;
+}
+.mbmLoaderFix{
+    opacity:.9;
+  width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    position: fixed;
+    top: 45%;
+    padding: 20px;
+    z-index: 99999;
+  
+}
+
+/* Loader centered within a container */
+.top035 {
+    top: 35%;
+}
+
+.posAbsolute {
+    position: absolute;
+}
+/* End of loader centered within a container */
+
+/* SMALL Loader centered within a container */
+.loader-fixed.small-loader {
+    text-align: center;
+    width: auto;
+    margin-left: -50px;
+    max-width: 120px;
+    padding: 20px 10px;
+    box-shadow: none;
+}
+.margin0 {
+    margin: 0px;
+}
+.square45 {
+    width: 45px; height: 45px;
+}
+
+/* End of SMALL Loader centered within a container */
